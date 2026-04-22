@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fazer um pedido | Eletronix</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="pedidos-page">
+
+    <a href="index.html" class="back-link">← VOLTAR</a>
+
+    <main class="contact-container">
+        <header class="contact-header">
+            <h1>Faça seu pedido</h1>
+        </header>
+
+        <div class="form-group">
+            <p>Nome: <input type="text" name="nome"></p>
+            <p>E-mail: <input type="email" name="email"></p>
+            <p>Telefone: <input type="tel" name="telefone"></p>
+            
+            <p>Produto Desejado:
+                <select name="produtos">
+                    <option value="">Selecione um produto...</option>
+                    <option value="chuveiro">Chuveiro Lorenzetti</option>
+                    <option value="disjuntor">Disjuntor Bipolar</option>
+                    <option value="kit">Kit Materiais Elétricos</option>
+                    <option value="lampada">Lâmpada LED Smart</option>
+                    <option value="tomada">Conjunto de Tomadas</option>
+                </select>
+            </p>
+        </div>
+
+        <div class="address-section">
+            <h1>Local</h1>
+            <h2 class="street-name">Rua Dom Pedro II, 1550</h2>
+            <p class="neighborhood">Cianorte</p>
+        </div>
+
+        <div class="action-section">
+            <a href="#" class="btn-minimal">
+                EFETUAR PAGAMENTO
+            </a>
+        </div>
+
+        <footer class="hours">
+            <span>HORÁRIOS</span>
+            <p>Seg — Sex: 09h às 20h</p>
+            <p>Sáb: 08h às 18h</p>
+        </footer>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
